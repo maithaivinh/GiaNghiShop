@@ -14,5 +14,7 @@ namespace GiaNghiShop.Data.Entity.Entities
         public bool IsShowOnHome { get; set; }
         public Guid? ParentId { get; set; }
         public Status Status { get; set; }
+        public List<ProductInCategory> ProductInCategories { get; set; }
+        public List<CategoryTranslation> CategoryTranslations { get; set; }
     }
 }
